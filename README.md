@@ -69,7 +69,7 @@ where `μ` is the constant value of the distribution.
 ## Usage
 
 ```javascript
-import stdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate-stdev@esm/index.mjs';
+import stdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate-stdev@v0.2.0-esm/index.mjs';
 ```
 
 #### stdev( mu )
@@ -114,7 +114,7 @@ v = stdev( NaN );
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import stdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate-stdev@esm/index.mjs';
+import stdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate-stdev@v0.2.0-esm/index.mjs';
 
 var mu;
 var v;
