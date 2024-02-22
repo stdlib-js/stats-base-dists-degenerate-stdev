@@ -69,6 +69,11 @@ where `μ` is the constant value of the distribution.
 ## Usage
 
 ```javascript
+import stdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate-stdev@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-degenerate-stdev/tags). For example,
+
+```javascript
 import stdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate-stdev@v0.2.1-esm/index.mjs';
 ```
 
@@ -114,7 +119,7 @@ v = stdev( NaN );
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import stdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate-stdev@v0.2.1-esm/index.mjs';
+import stdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate-stdev@esm/index.mjs';
 
 var mu;
 var v;
