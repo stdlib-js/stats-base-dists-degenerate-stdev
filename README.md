@@ -69,7 +69,7 @@ where `μ` is the constant value of the distribution.
 ## Usage
 
 ```javascript
-import stdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate-stdev@deno/mod.js';
+import stdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate-stdev@v0.3.1-deno/mod.js';
 ```
 
 #### stdev( mu )
@@ -110,7 +110,7 @@ v = stdev( NaN );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import stdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate-stdev@deno/mod.js';
+import stdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate-stdev@v0.3.1-deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
